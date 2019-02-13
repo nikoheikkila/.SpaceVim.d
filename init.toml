@@ -52,6 +52,15 @@ name = 'fzf'
 name = "lang#dockerfile"
 
 [[layers]]
+name = "lang#javascript"
+
+[[layers]]
+name = "lang#php"
+
+[[layers]]
+name = "lang#python"
+
+[[layers]]
 name = "ui"
 
 [[layers]]
