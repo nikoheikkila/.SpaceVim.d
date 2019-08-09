@@ -11,19 +11,22 @@
     # set spacevim theme. by default colorscheme layer is not loaded,
     # if you want to use more colorscheme, please load the colorscheme
     # layer
-    colorscheme = "one"
-    background = "dark"
+    colorscheme = "material"
+    colorscheme_bg = "dark"
     # Disable guicolors in basic mode, many terminal do not support 24bit
     # true colors
     enable_guicolors = true
+    guifont = "Operator Mono Lig"
     # Disable statusline separator, if you want to use other value, please
     # install nerd fonts
     statusline_separator = "arrow"
     statusline_inactive_separator = "arrow"
+    statusline_unicode_symbols = true
     buffer_index_type = 4
     enable_tabline_filetype_icon = true
     enable_statusline_display_mode = true 
-    vimcompatible = true
+    vimcompatible = false
+    filemanager = "nerdtree"
 
 [[layers]]
 name = 'default'
